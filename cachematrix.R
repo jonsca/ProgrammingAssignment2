@@ -6,7 +6,10 @@
 ## the cached copy will be returned
 
 makeCacheMatrix <- function(x = matrix()) {
-#Creates a matrix object and caches its inverse
+# Creates a matrix object and caches its inverse
+#
+# Based on the makeVector function in the assignment
+#
 # Arguments: x, a matrix whose inverse will be calculated
 # Returns: a matrix object as a list of functions
   
